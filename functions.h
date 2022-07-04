@@ -1,3 +1,9 @@
+/*
+* @file functions.h
+* @author Дьогтєв Є. О. гр. 515-Б
+* @date 7 липня 2022
+* @brief Літня практика
+*/
 #pragma once
 #include <stdio.h>
 int intersection_check(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4)

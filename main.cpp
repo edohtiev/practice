@@ -1,3 +1,10 @@
+/*
+* @file main.cpp
+* @author Дьогтєв Є. О. гр. 515-Б
+* @date 7 липня 2022
+* @brief Літня практика
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -10,6 +17,7 @@ void main()
 {
     setlocale(LC_ALL, "rus");
     int x1, y1, x2, y2, x3, y3, x4, y4;
+    //введення данних
     printf("Введите координаты первой точки первого отрезка (x1;y1)\n");
     scanf_s("%i %i", &x1, &y1);
     printf("Введите координаты второй точки первого отрезка (x2;y2)\n");
